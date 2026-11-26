@@ -1,0 +1,24 @@
+# Dependencies
+**/node_modules/
+
+# Generated output
+**/dist/
+**/build/
+**/*.tsbuildinfo
+backend/data/
+/.playwright-mcp/
+**/.claude/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local credential notes
+/JOANA.IA.BR.md
+
+# Logs
+*.log
